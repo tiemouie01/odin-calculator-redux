@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 500px;
+}
+
+.display {
+    border: 1px solid black;
+    height: 64px;
+}
+
+.first-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+}
+
+.third-row {
+    display: flex;
+}
+
+.fourth-row {
+    display: flex;
+}
+
+.fifth-row {
+    display: flex;
+}
+
+.number, .operator {
+    flex: 1;
+    text-align: center;
+
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: lightgrey;
+}
